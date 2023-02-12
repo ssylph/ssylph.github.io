@@ -3,16 +3,16 @@
 
 :root {
     --favorites-name: 'My Favorites';
-    --favorites-guild-icon: url(//i.imgur.com/OFCbYk0.png);
-    --favorites-banner: url(https://i.imgur.com/jtcxsU6.png);
+    --favorites-guild-icon: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ftypicalcolors2.fandom.com%2Ff%2Fp%2F4400000000000106772&psig=AOvVaw2pjMVljAEIyy6dScLsEJbi&ust=1676314851331000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDLxczVkP0CFQAAAAAdAAAAABAE);
+    --favorites-banner: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ftypicalcolors2.fandom.com%2Ff%2Fp%2F4400000000000106772&psig=AOvVaw2pjMVljAEIyy6dScLsEJbi&ust=1676314851331000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDLxczVkP0CFQAAAAAdAAAAABAE);
 
     /* category icons */
     /* Duplicate each group for additional categories (Up to 10), then replace both numbers. */
     --category-1: '';
-    --c1: url(https://i.imgur.com/Xwm8bJA.png);
+    --c1: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ftypicalcolors2.fandom.com%2Ff%2Fp%2F4400000000000106772&psig=AOvVaw2pjMVljAEIyy6dScLsEJbi&ust=1676314851331000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDLxczVkP0CFQAAAAAdAAAAABAE);
     
     --category-2: '';
-    --c2: url(https://i.imgur.com/F3zPKAX.png);
+    --c2: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ftypicalcolors2.fandom.com%2Ff%2Fp%2F4400000000000106772&psig=AOvVaw2pjMVljAEIyy6dScLsEJbi&ust=1676314851331000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDLxczVkP0CFQAAAAAdAAAAABAE);
 }
 
 /* Role Border */
