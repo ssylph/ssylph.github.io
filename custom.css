@@ -1,3 +1,20 @@
+/* Boosted Favorites */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/boostedFavorites.css);
+
+:root {
+    --favorites-name: 'My Favorites';
+    --favorites-guild-icon: url(//i.imgur.com/OFCbYk0.png);
+    --favorites-banner: url(https://i.imgur.com/jtcxsU6.png);
+
+    /* category icons */
+    /* Duplicate each group for additional categories (Up to 10), then replace both numbers. */
+    --category-1: '';
+    --c1: url(https://i.imgur.com/Xwm8bJA.png);
+    
+    --category-2: '';
+    --c2: url(https://i.imgur.com/F3zPKAX.png);
+}
+
 /* Role Border */
 :root{
   --roles-roundness: 1; /* change the 0 to any other number if you want the roles to be fully round */
@@ -36,21 +53,4 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml
 /* NITRO BEGONE */
 .premiumTrialBadge-pEqntF {
     display: none;
-}
-
-/* Boosted Favorites */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/boostedFavorites.css);
-
-:root {
-    --favorites-name: 'My Favorites';
-    --favorites-guild-icon: url(//i.imgur.com/OFCbYk0.png);
-    --favorites-banner: url(https://i.imgur.com/jtcxsU6.png);
-
-    /* category icons */
-    /* Duplicate each group for additional categories (Up to 10), then replace both numbers. */
-    --category-1: '';
-    --c1: url(https://i.imgur.com/Xwm8bJA.png);
-    
-    --category-2: '';
-    --c2: url(https://i.imgur.com/F3zPKAX.png);
 }
