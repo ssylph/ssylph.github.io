@@ -15,6 +15,5 @@
 }
 
 .actionButton-D1ZvXj {
-    background-color: var(--old-green);
-    color: #ffffff;
+    background: var(--old-green) !important;
 }
