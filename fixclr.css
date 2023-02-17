@@ -1,8 +1,8 @@
 .theme-dark, .theme-light {
   /* Revert new green to old color */
-  --info-positive-foreground: var(--old-green);
-  --status-positive-background: var(--old-green);
-  --text-positive: var(--old-green);
+  --info-positive-foreground: #43b581;
+  --status-positive-background: #43b581;
+  --text-positive: #43b581;
 
   /* Revert new red to old color */
   --text-danger: #f04747;
@@ -10,10 +10,10 @@
   --status-danger-background: #f04747;
 }
 .colorDanger-3n-KnP.focused-3qFvc8 {
-    background-color: var(--old-red);
+    background-color: #f04747;
     color: #ffffff;
 }
 
 .actionButton-D1ZvXj {
-    background: var(--old-green) !important;
+    background: #43b581 !important;
 }
