@@ -83,9 +83,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml
     src: url(/assets/082e59042c15a057af01d5b717d01fb3.woff2) format("woff2");
 }
 
-/* Re-round Spotify Status Images */
-.assetsLargeImageSpotify-17ME3M{border-radius:8px;}
-
 /* Removes Chatbox from channel that don't allow you to communicate */
 .channelTextAreaDisabled-1p2fQv, .channelTextAreaDisabled-1p2fQv > .scrollableContainer-15eg7h{
   animation: nochat .000001ms forwards;
