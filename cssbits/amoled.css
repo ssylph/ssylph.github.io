@@ -2,6 +2,7 @@
 .theme-dark:not(.userProfileOuterThemed-3EfHmv),
 .theme-light:not(.userProfileOuterThemed-3EfHmv),
 .theme-amoled:not(.userProfileOuterThemed-3EfHmv) {
+    --primary-645: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
     --background-primary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
     --background-secondary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 8%);
     --background-secondary-alt: hsl(0, calc(var(--saturation-factor, 1) * 0%), 10%);
