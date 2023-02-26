@@ -92,3 +92,23 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml
 }
 /* Removes Follow banner on bottom of channels */
 .wrapper-2SplAX {display: none;}
+
+/* Better grid image */
+.lazyImg-ewiNCh {
+    object-fit: contain !important;;
+}
+
+/* Removes description on status picker */
+.description-22_U3B, .separator-1So4YB {
+   display: none;
+}
+
+/* Removes Nitro tab in home */
+.link-39sEB3[href="/store"] {
+   display: none;
+}
+
+/* Hides Nitro section in settings */
+.side-2ur1Qk[aria-label="User Settings"]>:nth-child(-n+15):not(:nth-child(-n+8)) {
+   display: none;
+}
