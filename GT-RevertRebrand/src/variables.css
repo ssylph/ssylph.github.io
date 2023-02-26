@@ -1,3 +1,20 @@
+:root, #app-mount {
+   --status-positive-background: #43b581 !important;
+   --text-danger: #f04747 !important;
+   --green-360: #43b581 !important;
+   --brand-500: #7289da !important;
+   --text-positive: #43b581 !important;
+   --yellow-300: #faa61a !important;
+   --yellow-360: #faa61a !important;
+   /*brand-560 is the hover blurple*/
+   /*Red 500 is the hover red*/
+   /*Red 400 is the border red*/
+   --red-400: #f04747 !important;
+   --status-danger: #f04747 !important;
+   --button-danger-background: #f04747 !important;
+   --button-positive-background: #43b581 !important;
+}
+
 body {
   /* Revert new green to old color */
   --old-green: #43b581;
