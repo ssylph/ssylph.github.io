@@ -344,8 +344,16 @@ html .invoiceCancelRow-3mYhFX { color: var(--text-danger); }
 }
 
 /* Manual fixes */
+img.icon-2O29O0.desaturate-_Twf3u {background: var(--old-green);}
+.colorDanger-3umuSx.focused-3LIdPu {background: var(--old-red);}
+.colorDanger-3umuSx {color: var(--old-red);}
+*[style*="background-color: var(--status-positive-background);"] {background: var(--old-green) !important;}
+#app-mount {--brand-500: var(--brand-experiment);}
+.wrapper-2olG5t.badge-1ImhlC {background-color: var(--old-red);}
+
 
 /* Fix hardcoded unread bar not being red */
 .isUnread-3Lojb- {
   border-color: var(--divider-color) !important;
 }
+
