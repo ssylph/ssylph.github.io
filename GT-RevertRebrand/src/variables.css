@@ -11,6 +11,7 @@ body {
   --info-danger-foreground: var(--old-red);
   --status-danger-background: var(--old-red);
   --button-danger-background: var(--old-red);
+  --button-outline-danger-border: var(--old-red);
   
   /* Revert new yellow to old color  */
   --old-yellow: #faa61a;
