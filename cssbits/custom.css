@@ -146,7 +146,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml
 }
 
 /* Hides Nitro section in settings */
-.side-2ur1Qk[aria-label="User Settings"]>:nth-child(-n+15):not(:nth-child(-n+8)) {
+.side-1lrxIh[aria-label="User Settings"]>:nth-child(-n+15):not(:nth-child(-n+8)) {
    display: none;
 }
 
