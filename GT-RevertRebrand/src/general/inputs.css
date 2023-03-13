@@ -15,10 +15,16 @@
   fill: var(--old-green);
 }
 
-/* Change all radio bars with the new green to the old green */
+/* Change all radio bars with the new colors to the old colors */
 /* In particular, this fixes the privacy and safety settings' 'keep me safe' option */
-.radioBar-1XgZqD-[style*="--radio-bar-accent-color:hsl(139"] {
-  --radio-bar-accent-color: var(--old-green) !important;
+.radioBar-1XgZqD[style*="--radio-bar-accent-color:var(--green-360);"] {
+    --radio-bar-accent-color: var(--old-green) !important;
+}
+.radioBar-1XgZqD[style*="--radio-bar-accent-color:var(--yellow-360);"] {
+    --radio-bar-accent-color: var(--old-yellow) !important;
+}
+.radioBar-1XgZqD[style*="--radio-bar-accent-color:var(--red-400);"] {
+    --radio-bar-accent-color: var(--old-red) !important;
 }
 
 /* Change green buttons back to the old green */
