@@ -105,9 +105,34 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml
 /* Removes Follow banner on bottom of channels */
 .wrapper-2SplAX {display: none;}
 
-/* Better grid image */
-.lazyImg-ewiNCh {
-    object-fit: contain !important;;
+/* No grid */
+[class*="ByOneGrid-"]:not([class*="OneGridSingle-"]),
+[class*="ByTwoGrid-"],
+[class*="ByThreeGrid-"] {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+[class*="ByOneGrid-"]:not([class*="OneGridSingle-"]) [class*="lazyImg"],
+[class*="ByTwoGrid-"] [class*="lazyImg"],
+[class*="ByThreeGrid-"] [class*="lazyImg"] {
+  aspect-ratio: unset;
+  height: auto !important;
+  width: auto !important;
+  margin-left: 0px !important;
+}
+
+[class^="mediaAttachmentsContainer-"] [class*="messageAttachmentMediaMosaic-"] {
+  max-width: fit-content;
+}
+
+[class*="mediaAttachmentsContainer-"] {
+  border-radius: 0px;
+}
+
+[class*="OneGridSingle-"] {
+  border-radius: 3px;
 }
 
 /* Removes description on status picker */
