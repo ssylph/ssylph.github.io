@@ -124,3 +124,25 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml
 .side-2ur1Qk[aria-label="User Settings"]>:nth-child(-n+15):not(:nth-child(-n+8)) {
    display: none;
 }
+
+/* Platform Indicators Color Fix */
+*[fill="var(--green-360"] {
+    fill: var(--old-green);
+}
+*[style*="background-color: var(--green-360);"] {
+    background-color: var(--old-green) !important;
+}
+*[style*="color: var(--green-360);"] {
+    color: var(--old-green) !important;
+}
+*[fill="var(--red-400"] {
+    fill: var(--old-red);
+}
+*[fill="var(--yellow-300"] {
+    fill: var(--old-yellow);
+}
+
+/*Sparkle fix on Nitro Tab*/
+.fullscreenSparkleStar1-3MxsUB, .fullscreenSparkleStar2-25D6hh {
+ margin-left: -35px;
+}
