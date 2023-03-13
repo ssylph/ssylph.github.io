@@ -12,6 +12,9 @@
 .icon-JRJzJz.iconSize-Ai8Wtu[style='background-image: url("/assets/d1382af8d9e755bc44811b1fd92990a8.svg");'] {
   background-image: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/server_join_icon.svg") !important;
 }
+svg.userJoinSystemMessageIcon-3FQ_Mo {
+  fill: var(--old-green);
+}
 
 /* Change the lock icon in the settings, it's an img tag so we need to use the content: css attribute instead of background-image */
 [src="/assets/acea8fd38500a12d0509c027a274caaa.svg"] {
@@ -32,4 +35,14 @@
 /* Change the report submitted logo back to old one */
 [src="/assets/c8d8bfacc6311892e73219a74e9cd164.svg"] {
   content: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/report_submitted.png");
+}
+
+/*Server icon under add friend*/
+[src="/assets/d759f3acc6286c964cc8118d7f68b374.svg"] {
+  content: url(https://ssylph.github.io/cssbits/srvr.svg) !important
+}
+
+/*Active Developer badge*/
+[src="/assets/26c7a60fb1654315e0be26107bd47470.svg"] {
+  content: url(https://ssylph.github.io/cssbits/activedev.svg) !important
 }
