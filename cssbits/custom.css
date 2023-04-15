@@ -1,3 +1,21 @@
+/* Old Italics */
+@font-face {
+    font-family: 'Old Italics';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/082e59042c15a057af01d5b717d01fb3.woff2) format("woff2");
+}
+@font-face {
+    font-family: 'Old Italics';
+    font-style: bold;
+    font-weight: 700;
+    src: url(/assets/4bc3ebf7886dab550f0af897eb0c0b2d.woff2) format("woff2");
+}
+.markup-eYLPri em, .italics-1HfeXG {
+    font-family: 'Old Italics';
+    font-style: oblique !important;
+}
+
 /* Better Jump To Present Button */
 [class*="jumpToPresentBar"] {
     display: contents;
@@ -95,24 +113,6 @@ content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvM
 }
 img[src$="badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"]{
 content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBmaWxsPSIjZjQ3YjY3IiBkPSJNMjEuNTkxIDUuMzE4bC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOThoLjAwMXoiLz48L3N2Zz4=") !important
-}
-
-/* Old Italics */
-@font-face {
-    font-family: 'Old Italics';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/assets/082e59042c15a057af01d5b717d01fb3.woff2) format("woff2");
-}
-@font-face {
-    font-family: 'Old Italics';
-    font-style: bold;
-    font-weight: 700;
-    src: url(/assets/4bc3ebf7886dab550f0af897eb0c0b2d.woff2) format("woff2");
-}
-.markup-eYLPri em, .italics-1HfeXG {
-    font-family: 'Old Italics';
-    font-style: oblique !important;
 }
 
 /* Removes Chatbox from channel that don't allow you to communicate */
