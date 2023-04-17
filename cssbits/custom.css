@@ -12,7 +12,7 @@
     src: url(/assets/4bc3ebf7886dab550f0af897eb0c0b2d.woff2) format("woff2");
 }
 .markup-eYLPri em, .italics-1HfeXG {
-    font-family: 'Old Italics';
+    font-family: 'Old Italics' !important;
     font-style: oblique !important;
 }
 
