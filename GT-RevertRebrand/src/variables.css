@@ -4,6 +4,7 @@ body {
   --info-positive-foreground: var(--old-green);
   --status-positive-background: var(--old-green);
   --text-positive: var(--old-green);
+  --green-360: var(--old-green);
 
   /* Revert new red to old color */
   --old-red: #f04747;
