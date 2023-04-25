@@ -115,16 +115,6 @@ img[src$="badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"]{
 content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBmaWxsPSIjZjQ3YjY3IiBkPSJNMjEuNTkxIDUuMzE4bC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOThoLjAwMXoiLz48L3N2Zz4=") !important
 }
 
-/* Removes Chatbox from channel that don't allow you to communicate */
-.channelTextAreaDisabled-1p2fQv, .channelTextAreaDisabled-1p2fQv > .scrollableContainer-15eg7h{
-  animation: nochat .000001ms forwards;
-}
-@keyframes nochat{
-  to{height: 0}
-}
-/* Removes Follow banner on bottom of channels */
-.wrapper-2SplAX {display: none;}
-
 /* No grid */
 [class*="ByOneGrid-"]:not([class*="OneGridSingle-"]),
 [class*="ByTwoGrid-"],
