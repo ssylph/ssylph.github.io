@@ -15,15 +15,15 @@
 /* ----------------------------------------- */
 
 :root {
-  --display-badges: none;                         /* Nitro and Booster badges on user profiles */
-  --display-gif-button: none;                     /* GIF button in chat bar */
+  --display-badges: unset;                         /* Nitro and Booster badges on user profiles */
+  --display-gif-button: unset;                     /* GIF button in chat bar */
   --display-sticker-buttons: none;                /* Sticker button in chat bar & emoji picker */
   --display-hover-reaction-emoji: unset;          /* Emoji suggestions on message hover */
   --display-app-launcher: none;                   /* App launcher right of chat bar */
   --bool-super-reaction-hide-anim: true;          /* Replace Super Reactions with a blink animation */
   --display-super-reactions: unset;               /* Hide super reactions entirely */
-  --display-profile-effects: none;                /* Avatar decorations & profile effects */
-  --display-active-now: unset;                    /* Active Now column in friends list */
+  --display-profile-effects: unset;                /* Avatar decorations & profile effects */
+  --display-active-now: none;                    /* Active Now column in friends list */
   --display-server-settings-boost-tab: none;      /* Server settings menu Boost tab */
 
   --display-settings-billing-header: unset;       /* Settings menu Billing Settings header */
@@ -333,26 +333,3 @@ section[class^="panels"] > [class*="mask"]:has([class*="questRewardTile"]) { dis
 
 /* Hide "Play Again" activities heading in DMs list */
 li[role="listitem"] ~ div[class^="container"]:has(div[class^="iconContainer"]) { display: none; }
-
-/* ------------------------ */
-/* Disblock Origin branding */
-/* ------------------------ */
-
-div[class^="socialLinks"]::before {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    padding: 0 2px;
-    margin-right: 8px;
-    background-color: var(--interactive-normal);
-    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='16' height='16' viewBox='0 0 40 40'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' fill='currentColor' d='M19.999 36.936C34.816 28.469 34.816 28.469 34.816 7.3c-6.35 0-8.467 0-14.817-4.233m0 33.867C5.182 28.47 5.182 28.47 5.182 7.301c6.35 0 8.467 0 14.817-4.233ZM19.878 9.554h-7.395v8.321l4.922 4.44v-8.076h2.628c1.67 0 2.494.803 2.494 2.097v6.18c0 1.293-.78 2.164-2.494 2.164H12.46v4.707h7.394c3.964.022 7.683-1.964 7.683-6.514v-6.649c.023-4.64-3.697-6.67-7.66-6.67Z'/%3E%3C/svg%3E");
-    mask-size: 100% 100%;
-    -webkit-mask-size: 100% 100%;
-}
-
-nav[class^="sidebar"] div[class^="info_"] > span:last-child::after {
-    content: "Ads blocked by Disblock Origin";
-    display: block;
-}
-
